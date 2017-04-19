@@ -75,7 +75,8 @@
                     </a>-->
                 </div>
                 <div id="headerRight" class="nav navbar-nav navbar-right">
-                    <button id="logInButton" type="submit" class="btn btn-primary active" value="Sing in" name="signIn" formmethod="get">Sign In</button>
+                    <button id="logInButton" type="submit" class="btn btn-primary active" value="Sing in" name="signIn" formmethod="post"
+                            formaction="LoginPage.html">Sign In</button>
                     <button id="signUpButton" type="button" class="btn btn-warning active" value="Sing Up" name="signUp" formmethod="post">Sign Up</button>
                 </div>
                 <!-- Collect the nav links, forms, and other content for toggling -->
@@ -128,9 +129,16 @@
                                
             </div>
         </nav>        
-    </footer>
-
-    
-
+    </footer>    
+    <script type="text/javascript">
+        $(document).ready(function ()
+        {
+            var button = $(#logInButton).click(funtion()
+            {
+            
+                <a href= "LoginPage.html" > LoginPage.html</a >
+                })
+        })
+    </script>
 </body>
 </html>
