@@ -4,15 +4,18 @@
     <meta charset="utf-8" />
     <title>Tweet n Hash</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="Images/Earth.png" />
+    <link rel="stylesheet" href="css/index.css"/>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <style>
+    <!--<style>
         .container-fluid .nav {
             background-color: darkslategray;
         }
         #brandLogo {
             margin-top: 0px;
             margin-bottom: 0px;
+            margin-left:100px;
             position: relative;
             font-size: 30px;
             font-weight: bold;
@@ -97,7 +100,41 @@
         .form .form-control {
             margin-bottom: 10px;
         }
-
+        .login-form {
+            display: -webkit-inline-box;
+            display: -ms-inline-flexbox;
+            display: inline-flex;
+            /*position: relative;*/
+            -webkit-box-align: start;
+            -ms-flex-align: start;
+            align-items: flex-start;
+            -webkit-box-pack: end;
+            -ms-flex-pack: end;
+            justify-content: flex-end;
+            text-align: right;
+            margin-bottom:10px;
+        }
+            .login-form input {
+                font-family: Source Sans Pro, Helvetica, Arial, 
+                    Noto Naskh Arabic, Noto Sans Thai, 
+                    Droid Arabic Naskh, Geeza Pro, 
+                    Simplified Arabic, Thonburi, Dokchampa, 
+                    Droid Sans Thai, Hiragino Sans GB W3, 
+                    Heiti SC, Segoe UI, Microsoft Yahei, 
+                    Droid Sans Fallback, -apple-system, '.SFNSDisplay-Regular', sans-serif;
+                line-height: 16px;
+                font-weight: 400;
+                color: rgba(0,0,0,0.85);
+                font-size: 13px;
+                display: inline-block;
+                width: 216px;
+                height: 32px;
+                margin: 0px 8px 10px 0;
+                padding: 0 10px;
+                background: #f3f6f8;
+                border: 1px solid #b3b6b9;
+                border-radius: 2px;
+            }
         @media (min-width:768px) {
             #home {
                 margin-top: 50px;
@@ -110,7 +147,7 @@
                 }
         }
         
-    </style>
+    </style>-->
 </head>
 <body>
     <header>
@@ -122,12 +159,25 @@
                         <h1 id="brandLogo">
                             <!--<img src="Images/Earth_Brand.png" />--> tweetnhash
                         </h1>
+                        <!--<form class="login-form">
+                            <label for="email or login"></label>
+                            <input type="text" class="login-email" placeholder="Email or User Name" autofocus="autofocus" />
+                            <label for="login-password"></label>
+                            <input type="password" name="session_password"
+                                   class="login-password" id="login-password"
+                                   aria-required="true" tabindex="1" placeholder="Password">
+                        </form>-->                        
                     </div>  
-                    <div class="nav navbar-nav navbar-right">
+                    
+                    <div class="nav navbar-nav navbar-right">                        
                         <button id="logInButton" type="submit" class="btn btn-primary active" value="Sing in" name="signIn" formmethod="post"
                                 formaction="LoginPage.html">
-                            Sign In
+                            Sign in
                         </button>
+                        <!--<button id="logInButton" type="submit" class="login submit-button" value="Sing in" name="signIn" formmethod="post"
+                                formaction="LoginPage.html">
+                            Sign in
+                        </button>-->
                     </div>
                     <!-- Collect the nav links, forms, and other content for toggling -->
                     <!--<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
