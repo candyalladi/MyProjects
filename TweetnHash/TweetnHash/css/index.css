@@ -1,6 +1,4 @@
-﻿    .container-fluid .nav
-
-{
+﻿.container-fluid .nav{
     background-color: darkslategray;
 }
 
@@ -162,5 +160,12 @@
             line-height: 29px;
             font-weight: bold;
         }
-}
 
+    .navbar-right {
+        float: right !important;
+        margin-right: 0px;
+        max-height: 40px;
+    }
+
+    
+}

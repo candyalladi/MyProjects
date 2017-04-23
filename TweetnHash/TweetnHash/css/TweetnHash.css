@@ -1,0 +1,75 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+/*.navbar {
+    background-color: darkslategray;
+    margin:0px;
+}*/
+footer{
+	background-color: darkslategray;
+	color: white;
+	padding: 20px;
+	text-align: center;
+}
+
+aside{
+    background-color:#f7f7f7;
+    text-align:center;
+    padding-top:40px;
+}
+
+.navbar, .navbar-nav, .navbar-toggle {
+    background-color: darkslategray;
+    color:white;
+    margin: 0px;
+    max-height:40px;
+}
+
+.navbar-brand > img {
+    display: block;
+    width: 10%;
+    margin-top:-15px;
+}
+
+
+element {
+}
+
+.social-links a:hover {
+    opacity: 1;
+}
+
+.social-links li a:hover {
+    background-position: 0 0;
+}
+
+.social-links li.twitter a {
+    background-image: url('../Images/twitter.png');
+    background-position: 0 -15px;
+    height: 15px;
+    width: 21px;
+}
+.social-links li.facebook a {
+    background-image: url('../Images/facebook.png');
+    background-position: 0 -15px;
+    height: 15px;
+    width: 21px;
+}
+.social-links li.linkedin a {
+    background-image: url('../Images/linkedin.png');
+    background-position: 0 -15px;
+    height: 15px;
+    width: 21px;
+}
+.social-links li.youtube a {
+    background-image: url('../Images/youtube.png');
+    background-position: 0 -15px;
+    height: 15px;
+    width: 21px;
+}
+.social-links li.pinterest a {
+    background-image: url('../Images/pinterest.png');
+    background-position: 0 -15px;
+    height: 15px;
+    width: 21px;
+} 

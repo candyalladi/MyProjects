@@ -6,148 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" href="Images/Earth.png" />
     <link rel="stylesheet" href="css/index.css"/>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <!--<style>
-        .container-fluid .nav {
-            background-color: darkslategray;
-        }
-        #brandLogo {
-            margin-top: 0px;
-            margin-bottom: 0px;
-            margin-left:100px;
-            position: relative;
-            font-size: 30px;
-            font-weight: bold;
-            color:white;
-        }
-        /*#headerRight
-        {
-            margin-right:20px;
-            margin-top:10px;
-        }*/
-        #logInButton {
-            border-radius: 5px;
-            border: 1px solid rgba(255,255,255,0.3);
-            font-size: 16px;
-            font-weight: 200;
-            width: 100px;
-            margin-top: 5px;
-            margin-bottom: 10px;
-            margin-right: 275px;
-        }
-        /*#signUpButton {
-            border-radius: 5px;
-            border: 1px solid rgba(255,255,255,0.3);
-            font-size: 16px;
-            font-weight: 200;
-            margin-top: 5px;
-            margin-bottom: 10px;
-        }*/
-        .legend {
-            color: #141823;
-            font-size: 25px;
-            font-weight: bold;
-        }
-        .signup-btn {
-            background: #79bc64;
-            background-image: -webkit-linear-gradient(top, #79bc64, #578843);
-            background-image: -moz-linear-gradient(top, #79bc64, #578843);
-            background-image: -ms-linear-gradient(top, #79bc64, #578843);
-            background-image: -o-linear-gradient(top, #79bc64, #578843);
-            background-image: linear-gradient(to bottom, #79bc64, #578843);
-            -webkit-border-radius: 4;
-            -moz-border-radius: 4;
-            border-radius: 4px;
-            text-shadow: 0px 1px 0px #898a88;
-            -webkit-box-shadow: 0px 0px 0px #a4e388;
-            -moz-box-shadow: 0px 0px 0px #a4e388;
-            box-shadow: 0px 0px 0px #a4e388;
-            font-family: Arial;
-            color: #ffffff;
-            font-size: 20px;
-            padding: 10px 20px 10px 20px;
-            border: solid #3b6e22 1px;
-            text-decoration: none;
-        }
-
-            .signup-btn:hover {
-                background: #79bc64;
-                background-image: -webkit-linear-gradient(top, #79bc64, #5e7056);
-                background-image: -moz-linear-gradient(top, #79bc64, #5e7056);
-                background-image: -ms-linear-gradient(top, #79bc64, #5e7056);
-                background-image: -o-linear-gradient(top, #79bc64, #5e7056);
-                background-image: linear-gradient(to bottom, #79bc64, #5e7056);
-                text-decoration: none;
-            }
-
-        .navbar-brand {
-            font-size: 30px;
-            font-weight: bold;
-            
-        }
-
-        /*.brandLogo {
-            max-height: 50px;
-            max-width: 50px;
-            margin-top: 0px;
-            margin-bottom: 0px;
-            margin-top: 5px;
-            margin-bottom: 10px;
-            margin-right: 275px;
-        }*/
-
-        .form .form-control {
-            margin-bottom: 10px;
-        }
-        .login-form {
-            display: -webkit-inline-box;
-            display: -ms-inline-flexbox;
-            display: inline-flex;
-            /*position: relative;*/
-            -webkit-box-align: start;
-            -ms-flex-align: start;
-            align-items: flex-start;
-            -webkit-box-pack: end;
-            -ms-flex-pack: end;
-            justify-content: flex-end;
-            text-align: right;
-            margin-bottom:10px;
-        }
-            .login-form input {
-                font-family: Source Sans Pro, Helvetica, Arial, 
-                    Noto Naskh Arabic, Noto Sans Thai, 
-                    Droid Arabic Naskh, Geeza Pro, 
-                    Simplified Arabic, Thonburi, Dokchampa, 
-                    Droid Sans Thai, Hiragino Sans GB W3, 
-                    Heiti SC, Segoe UI, Microsoft Yahei, 
-                    Droid Sans Fallback, -apple-system, '.SFNSDisplay-Regular', sans-serif;
-                line-height: 16px;
-                font-weight: 400;
-                color: rgba(0,0,0,0.85);
-                font-size: 13px;
-                display: inline-block;
-                width: 216px;
-                height: 32px;
-                margin: 0px 8px 10px 0;
-                padding: 0 10px;
-                background: #f3f6f8;
-                border: 1px solid #b3b6b9;
-                border-radius: 2px;
-            }
-        @media (min-width:768px) {
-            #home {
-                margin-top: 50px;
-            }
-
-                #home .slogan {
-                    color: #0e385f;
-                    line-height: 29px;
-                    font-weight: bold;
-                }
-        }
-        
-    </style>-->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/TweetnHash.css" rel="stylesheet" />
+    <script src="Scripts/jquery-1.9.1.min.js"></script>
+    <script src="Scripts/bootstrap.min.js"></script>    
 </head>
 <body>
     <header>
@@ -380,7 +243,8 @@
                             <input type="radio" name="gender" value="F" id=female />                        Female
                         </label>
                         <br />
-                        <span class="help-block">By clicking Create my account, you agree to our Terms and that you have read our Data Use Policy, including our Cookie Use.</span>
+                        <span class="help-block">By clicking Create my account, you agree to our Terms and that you have read our Data Use Policy, 
+                        including our Cookie Use.</span>
                         <button class="btn btn-lg btn-primary btn-block signup-btn" type="submit">
                             Create my account
                         </button>
