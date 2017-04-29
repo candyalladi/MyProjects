@@ -17,21 +17,18 @@
         <nav class="navbar navbar-default">
             <div class="container-fluid">
                 <!-- Brand and toggle get grouped for better mobile display -->
-                <div class="nav navbar-nav navbar-fixed-top">
-                    <div class="navbar-brand">
-                        <h1 id="brandLogo">
-                            <!--<img src="Images/Earth_Brand.png" />--> tweetnhash
-                        </h1>
-                        <!--<form class="login-form">
-                            <label for="email or login"></label>
-                            <input type="text" class="login-email" placeholder="Email or User Name" autofocus="autofocus" />
-                            <label for="login-password"></label>
-                            <input type="password" name="session_password"
-                                   class="login-password" id="login-password"
-                                   aria-required="true" tabindex="1" placeholder="Password">
-                        </form>-->                        
-                    </div>  
-                    
+                <div>
+                    <div class="navbar-header">
+                        <h1 class="navbar-brand">tweetnhash</h1> 
+                    <form class="navbar-form navbar-left">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Email or User Name" autofocus="autofocus" />
+                            <input type="password" name="session_password" class="form-control" id="login-password"
+                                           aria-required="true" tabindex="1" placeholder="Password">
+
+                            
+                        </div>
+                    </form>
                     <div class="nav navbar-nav navbar-right">                        
                         <button id="logInButton" type="submit" class="btn btn-primary active" value="Sing in" name="signIn" formmethod="post"
                                 formaction="LoginPage.html">

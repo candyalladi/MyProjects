@@ -72,8 +72,15 @@
     <Content Include="css\index.css" />
     <Content Include="css\TweetnHash.css" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Images\facebook.png" />
+    <Content Include="Images\google-plus.png" />
+    <Content Include="Images\linkedin.png" />
+    <Content Include="Images\pinterest.png" />
+    <Content Include="Images\twitter.png" />
+    <Content Include="Images\youtube.png" />
     <Content Include="LoginDashBoard.html" />
     <Content Include="LoginPage.html" />
+    <Content Include="MainDashboard.html" />
     <Content Include="NewLoginPage.html" />
     <Content Include="packages.config" />
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />

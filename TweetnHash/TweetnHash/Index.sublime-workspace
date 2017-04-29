@@ -1,0 +1,430 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"co",
+				"container-fluid"
+			],
+			[
+				"col",
+				"col-sm-2"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"nav",
+				"navbar-nav"
+			],
+			[
+				"he",
+				"header\tTag"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"nam",
+				"namebox"
+			],
+			[
+				"border-r",
+				"border-radius"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"font-",
+				"font-family"
+			],
+			[
+				"lo",
+				"loginPageContext"
+			],
+			[
+				"background-c",
+				"background-color"
+			],
+			[
+				"hed",
+				"navbar-header"
+			],
+			[
+				"ba",
+				"background"
+			],
+			[
+				"header",
+				"loginHeader"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"con",
+				"tab-content"
+			],
+			[
+				"left",
+				"border-left"
+			],
+			[
+				"na",
+				"navbar"
+			],
+			[
+				"head",
+				"navbar-header"
+			],
+			[
+				"btn",
+				"btn-success"
+			],
+			[
+				"pa",
+				"Password"
+			],
+			[
+				"tab",
+				"table"
+			],
+			[
+				"p",
+				"Password"
+			],
+			[
+				"in",
+				"input\tTag"
+			],
+			[
+				"h",
+				"h1\tTag"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"bo",
+				"border"
+			],
+			[
+				"bor",
+				"border-right"
+			],
+			[
+				"b",
+				"background"
+			],
+			[
+				"st",
+				"style\tTag"
+			],
+			[
+				"li",
+				"link\tTag"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"th",
+				"thead\tTag"
+			],
+			[
+				"t",
+				"thead\tTag"
+			],
+			[
+				"fo",
+				"footer\tTag"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "<!DOCTYPE html>\n<html>\n<head>\n\t<title>\n\t\t\n\t</title>\n\t<link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css\">\n\t<link rel=\"stylesheet\" type=\"text/css\" href=\"../../css/TweetnHash.css\">\n\t<script src=\"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js\"></script>\n</head>\n<body>\n\t<header class=\"container-fluid\">\n\t\t<h1>HEADER</h1>\n\t</header>\n\n\t<div class=\"container\">\n\t\t<div class=\"row\">\n\t\t\t<aside class=\"col-sm-2\">\n\t\t\t\tCol 1\n\t\t\t</aside>\n\t\t\t<section class=\"col-sm-8\">\n\t\t\t\tCol 2\n\t\t\t</section>\n\t\t\t<aside class=\"col-sm-2\">\n\t\t\t\tCol 3\n\t\t\t</aside>\n\t\t</div>\n\t</div>\n\n\t<footer class=\"container-fluid\">\n\t\t<h1>&copy; 2017</h1>\n\t</footer>\n\n</body>\n</html>",
+			"file": "homePage.html",
+			"file_size": 734,
+			"file_write_time": 131372573180882652,
+			"settings":
+			{
+				"buffer_size": 700,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/TweetnHash.css",
+			"settings":
+			{
+				"buffer_size": 1531,
+				"line_ending": "Windows",
+				"name": "body"
+			}
+		},
+		{
+			"file": "/C/CandyAlladi/Old Projects/TweetnHash_webapp/TweetnHash/Models/ApplicationDbContext.cs",
+			"settings":
+			{
+				"buffer_size": 269,
+				"encoding": "UTF-8 with BOM",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/CandyAlladi/TweetnHash/Index.html",
+		"/C/CandyAlladi/TweetnHash/Index"
+	],
+	"find":
+	{
+		"height": 0.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "homePage.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 700,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								585,
+								585
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "css/TweetnHash.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1531,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"auto_name": "body",
+							"syntax": "Packages/CSS/CSS.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/C/CandyAlladi/Old Projects/TweetnHash_webapp/TweetnHash/Models/ApplicationDbContext.cs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 269,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C#/C#.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "Index.sublime-project",
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

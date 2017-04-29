@@ -18,17 +18,29 @@ aside{
     padding-top:40px;
 }
 
-.navbar, .navbar-nav, .navbar-toggle {
+.navbar {
     background-color: darkslategray;
     color:white;
     margin: 0px;
-    max-height:40px;
+    height:40px;
+    border-radius:0px;
+}
+
+.navbar-form{
+    margin-right:0px;
 }
 
 .navbar-brand > img {
     display: block;
     width: 10%;
     margin-top:-15px;
+}
+
+.img-circle {
+    border-radius: 50%;
+    margin-left: -15px;
+    width: 25%;
+    height: 25%;
 }
 
 
