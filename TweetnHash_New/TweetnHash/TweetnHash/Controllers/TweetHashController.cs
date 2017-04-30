@@ -9,9 +9,9 @@ namespace TweetnHash.Controllers
     public class TweetHashController : Controller
     {
         // GET: TweetHash
-        public ActionResult Create()
+        public ActionResult Dashboard()
         {
-            return View("Login");
+            return View();
         }
     }
 }
