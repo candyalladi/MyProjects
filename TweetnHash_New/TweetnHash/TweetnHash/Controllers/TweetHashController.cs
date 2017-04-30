@@ -11,7 +11,7 @@ namespace TweetnHash.Controllers
         // GET: TweetHash
         public ActionResult Create()
         {
-            return View();
+            return View("Login");
         }
     }
 }
