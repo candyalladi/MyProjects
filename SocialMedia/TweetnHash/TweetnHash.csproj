@@ -198,6 +198,10 @@
     <Compile Include="Migrations\201705021302572_CreatedLoginPage.Designer.cs">
       <DependentUpon>201705021302572_CreatedLoginPage.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201705021455090_AddedNameProperty.cs" />
+    <Compile Include="Migrations\201705021455090_AddedNameProperty.Designer.cs">
+      <DependentUpon>201705021455090_AddedNameProperty.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="ViewModels\ExternalLoginConfirmationViewModel.cs" />
     <Compile Include="ViewModels\ExternalLoginListViewModel.cs" />
@@ -292,6 +296,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201705021302572_CreatedLoginPage.resx">
       <DependentUpon>201705021302572_CreatedLoginPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201705021455090_AddedNameProperty.resx">
+      <DependentUpon>201705021455090_AddedNameProperty.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

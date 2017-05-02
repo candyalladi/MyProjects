@@ -24,10 +24,10 @@ textarea {
 }
 
 /* Bootstrap Override*/
-form > span >.form-control{
+.form-control{
     box-shadow:none;
 }
-/*.btn-block {
-    display: block;
-    width: 100%;
-}*/
+.btn {
+    display: inline-block;
+    width: inherit;
+}
