@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Login Page
+	</title>
+</head>
+<body>
+<div class="container">
+	<ul class="nav navbar-nav navbar-right">
+        <li class="dropdown">
+            <a href="#" class="dropdown-toggle" 
+               data-toggle="dropdown" role="button" 
+               aria-haspopup="true" aria-expanded="false">@User.Identity.GetUserName() <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Twitter</a></li>
+                <li><a href="#">Instagram</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="javascript:document.getElementById('logoutForm').submit()">Log off</a></li>
+            </ul>
+        </li>
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+        <li>@Html.ActionLink("Register", "Register", "Account", routeValues: null, htmlAttributes: new { id = "registerLink" })</li>
+        <li>
+            <a href="/Account/Login" id="loginLink" data-toggle="modal" data-target="#loginModalDialog">Log in</a>
+        </li>
+    </ul>
+    <div id="loginModalDialog" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="LoginDialog-content modal-content">
+
+
+            <div class="modal-header">
+                <h3 class="modal-title" id="login-dialog-header">Log in to Twitter</h3>
+            </div>
+            <div class="LoginDialog-body modal-body">
+                <div class="LoginDialog-bird">
+                    <span class="Icon Icon--bird Icon--large"></span>
+                </div>
+                <div class="LoginDialog-form">
+                    <form action="/Account/Login" class="LoginForm js-front-signin" method="post" data-component="dialog" data-element="login">
+
+                        <div class="LoginForm-input LoginForm-username">
+                            <input type="text" class="text-input email-input js-signin-email" name="session[username_or_email]" autocomplete="username" placeholder="Phone, email or username">
+                        </div>
+
+                        <div class="LoginForm-input LoginForm-password">
+                            <input type="password" class="text-input" name="session[password]" placeholder="Password" autocomplete="current-password">
+                        </div>
+
+                        <div class="LoginForm-rememberForgot">
+                            <label>
+                                <input type="checkbox" value="1" name="remember_me" checked="checked">
+                                <span>Remember me</span>
+                            </label>
+                            <span class="separator">·</span>
+                            <a class="forgot" href="/account/begin_password_reset" rel="noopener">Forgot password?</a>
+                        </div>
+
+                        <input type="submit" class="submit btn primary-btn js-submit" value="Log in">
+
+                        <input type="hidden" name="return_to_ssl" value="true">
+
+                        <input type="hidden" name="scribe_log">
+                        <input type="hidden" name="redirect_after_login" value="/">
+                        <input type="hidden" value="c957a5c91e1f1654a5a78c6debaf4bef536d78e7" name="authenticity_token">
+
+                    </form>
+                </div>
+            </div>
+            <div class="LoginDialog-footer modal-footer u-textCenter">
+                Don't have an account? <a class="LoginDialog-signupLink" href="https://twitter.com/signup" rel="noopener">Sign up »</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+</div>
+</body>
+</html>

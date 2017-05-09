@@ -5,40 +5,43 @@
 
 <h2>@ViewBag.Title.</h2>
 
-
-@using (Html.BeginForm("Register", "Account", FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
-{
-    @Html.AntiForgeryToken()
-    <h4>Create a new account.</h4>
+<div class="reg-form">
+    @using (Html.BeginForm("Register", "Account", FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+    {
+        @Html.AntiForgeryToken()
+        <h4>Create a new account.</h4>
         <hr />
         @Html.ValidationSummary("", new { @class = "text-danger" })
-        <span>
-            @Html.LabelFor(m => m.FirstName, new { @class = "control-label" })
-            @Html.TextBoxFor(m => m.FirstName, new { @class = "form-control" })
-        </span>
-        <span>
-            @Html.LabelFor(m => m.LastName, new { @class = "control-label" })
-            @Html.TextBoxFor(m => m.LastName, new { @class = "form-control" })
-        </span>
-        <span>
-            @Html.LabelFor(m => m.Email, new { @class = "control-label" })
-            @Html.TextBoxFor(m => m.Email, new { @class = "form-control" })
-        </span>
-        <span>
-            @Html.LabelFor(m => m.Password, new { @class = "control-label" })
-            @Html.PasswordFor(m => m.Password, new { @class = "form-control" })
-        </span>
-        <span>
-            @Html.LabelFor(m => m.ConfirmPassword, new { @class = "control-label" })
-            @Html.PasswordFor(m => m.ConfirmPassword, new { @class = "form-control" })
-        </span><br />
+        <div class="form-group">
+            <span>
+                @Html.LabelFor(m => m.FirstName, new { @class = "control-label" })
+                @Html.TextBoxFor(m => m.FirstName, new { @class = "form-control" })
+            </span>
+
+            <span>
+                @Html.LabelFor(m => m.LastName, new { @class = "control-label" })
+                @Html.TextBoxFor(m => m.LastName, new { @class = "form-control" })
+            </span>
+            <span>
+                @Html.LabelFor(m => m.Email, new { @class = "control-label" })
+                @Html.TextBoxFor(m => m.Email, new { @class = "form-control" })
+            </span>
+            <span>
+                @Html.LabelFor(m => m.Password, new { @class = "control-label" })
+                @Html.PasswordFor(m => m.Password, new { @class = "form-control" })
+            </span>
+            <span>
+                @Html.LabelFor(m => m.ConfirmPassword, new { @class = "control-label" })
+                @Html.PasswordFor(m => m.ConfirmPassword, new { @class = "form-control" })
+            </span><br />
+        </div>
         <Span>
             <button type="submit" class="btn btn-primary" value="Sign up">
                 Sign up
             </button>
         </Span>
-
-}
+    }
+</div>
 
 @section Scripts {
     @Scripts.Render("~/bundles/jqueryval")
