@@ -1,0 +1,66 @@
+﻿@using TweetnHash.ViewModels
+@model FacebookViewModel
+
+@{
+    ViewBag.Title = "Facebook Page";
+}
+
+<h2>@ViewBag.Title.</h2>
+
+<div class="container">
+    <nav id="dashboardSideBar" class="tweet-n-hash-dashboard">
+        <ul>
+            <li>
+                <a href="#"
+                   data-toggle="collapse"
+                   data-target="#ulFacebook">
+                    <span>
+                        <img class="img-responsive" src="~/Images/facebook.png" />
+                        <b class="caret" />
+                    </span>
+                </a>
+                <ul id="ulFacebook" class="collapse" data-parent="#dashboardSideBar" >
+                    <li>
+                        <a href="#">Followers</a>
+                    </li>
+                    <li>
+                        <a href="#">Friends</a>
+                    </li>
+                    <li>
+                        <a href="#">Photos</a>
+                    </li>
+                    <li>
+                        <a href="#">Videos</a>
+                    </li>
+                </ul>
+            </li>
+        </ul>        
+    </nav>
+</div>
+
+@*<div class="container body-content">
+    <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <h1>Facebook Profile</h1>
+            <nav class="tweet-n-hash-dashboard">
+                <ul>
+                    <li>
+                        <a href="#">Followers</a>
+                    </li>
+                    <li>
+                        <a href="#">Friends</a>
+                    </li>
+                    <li>
+                        <a href="#">Photos</a>
+                    </li>
+                    <li>
+                        <a href="#">Videos</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</div>*@
+
+
+

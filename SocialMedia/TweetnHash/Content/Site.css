@@ -29,9 +29,11 @@ textarea {
     background-color: rgba(57, 97, 58, 0.86);
     border-color: rgba(57, 97, 58, 0.86);
 }
+
     .navbar-inverse .navbar-nav > li > a {
         color: #ffffff;
     }
+
     .navbar-inverse .navbar-brand {
         color: #ffffff;
         padding: 15px 15px;
@@ -39,14 +41,18 @@ textarea {
         line-height: 20px;
         max-width: 10%;
     }
+
     .navbar-inverse .navbar-toggle {
         border-color: #254a26;
     }
+
 img, .img-responsive {
+    position: relative;
+    left: 0em;
+    width: 8em;
     display: inline-block;
     vertical-align: middle;
-    max-width: 10%;
-    padding: 15px 15px;
+    margin-left: -25px;
 }
 
 .modal-content {
@@ -58,6 +64,7 @@ img, .img-responsive {
     max-width: 600px;
     margin: 50px;
 }
+
 .modal-header {
     background: #fff;
     border-bottom: 1px solid #e6ecf0;
@@ -66,16 +73,20 @@ img, .img-responsive {
     padding-top: 12px;
     padding-bottom: 12px;
 }
+
 .LoginDialog-body {
     padding: 30px;
 }
+
 .LoginDialog-bird {
     color: #1da1f2;
 }
+
 .LoginDialog-form {
     width: 260px;
     margin: 0 auto;
 }
+
 .modal-close {
     height: 20px;
     padding: 0;
@@ -84,20 +95,20 @@ img, .img-responsive {
     top: 12px;
     width: 20px;
 }
+
 .modal-btn {
     background-color: transparent;
     cursor: pointer;
 }
+
 .modal-header .modal-title {
     width: 75%;
     margin: 0 auto;
     overflow: hidden;
-    text-align:center;
+    text-align: center;
 }
-    
-.LoginDialog-footer
 
-{
+.LoginDialog-footer {
     border-color: #e6ecf0;
     color: #657786;
     font-size: 14px;
@@ -109,9 +120,11 @@ img, .img-responsive {
     text-align: right;
     border-top: 1px solid #e6ecf0;
 }
+
 .modal-header, .modal-footer, .modal-body {
     padding: 12px;
 }
+
 .u-textCenter {
     text-align: center !important;
 }
@@ -122,6 +135,7 @@ img, .img-responsive {
     box-sizing: border-box;
     margin-top: 10px;
 }
+
 .LoginForm-rememberForgot {
     text-align: left;
 }
@@ -129,10 +143,53 @@ img, .img-responsive {
 .LoginForm-rememberForgot {
     font-size: 12px;
 }
+
 .modal.modal-large:not(.is-autoPosition) {
     width: 600px;
 }
+
 .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
     color: #ffffff;
     background-color: #1a401b;
 }
+
+.container{
+    width:100%;
+}
+.body-content
+{
+    margin-left:12em;
+    margin-top:2.5em;
+    width:85%;
+}
+.tweet-n-hash-dashboard {
+    position: absolute;
+    top: 3.6em;
+    left: 0em;
+    width: 10em;
+    height: 100%;
+    background-color: #547755;
+    color: brown;
+}
+
+/*.tweet-n-hash-dashboard > ul > li {
+    text-decoration: none;
+    text-align: left;
+    color: brown;
+    background-color: black;
+    list-style: none;
+}*/
+
+    .tweet-n-hash-dashboard ul li ul {
+        text-decoration: none;
+        text-align: left;
+        color: brown;
+        
+        list-style: none;
+        margin-left: -5em;
+    }
+    .tweet-n-hash-dashboard  ul li ul a:hover,
+    .tweet-n-hash-dashboard ul li ul a:focus{
+        text-decoration: none;
+        color:#fbfbfb;
+    }
