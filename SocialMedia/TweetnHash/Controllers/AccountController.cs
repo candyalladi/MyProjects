@@ -448,7 +448,7 @@ namespace TweetnHash.Controllers
             {
                 return Redirect(returnUrl);
             }
-            return RedirectToAction("FacebookPage", "Dashboard");// RedirectToAction("Index", "Home");
+            return RedirectToAction("Index", "Home");// RedirectToAction("FacebookPage", "Dashboard");// RedirectToAction("Index", "Home");
         }
 
         internal class ChallengeResult : HttpUnauthorizedResult
